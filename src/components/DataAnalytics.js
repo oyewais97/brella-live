@@ -58,7 +58,7 @@ const DataAnalytics = () => {
 }
             </li>
             <li type="button" className="measure-list col-8 " onClick={handleNetwork}>
-              <span className="ne col-11">Network & matching</span>
+              <span className="ne col-11" style={{}}>Network & matching</span>
               {networkshow ?
               <span className="network-para col-12">
               Measure the impact of event content, determine the most popular sessions and segment virtual vs live attendance.
